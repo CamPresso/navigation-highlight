@@ -1,10 +1,11 @@
 html {
   box-sizing: border-box;
-  font-family: 'Sigmar One', cursive;
+  font-family: "Sigmar One", cursive;
   line-height: 1.5;
 }
 
 body {
+  background-color: #fff;
   padding: 0;
   margin: 0;
 }
@@ -26,7 +27,6 @@ h1 {
 h2 {
   color: #b20953;
   font-size: 1.875rem;
-  padding: 0 .5em;
 }
 
 .current {
@@ -34,9 +34,8 @@ h2 {
 }
 
 p {
-  color: black;
+  color: #2f2d13;
   font-family: Georgia, serif;
-  padding: .2em .5em .3em;
 }
 
 small {
@@ -90,13 +89,18 @@ a {
   text-decoration: none;
   color: #fff;
   padding: .2em .5em .3em;
-  border-radius: 4px
+  border-radius: 4px;
   display: inline-block;
 }
 
 .main {
+  background-color: #fff;
+}
+
+main {
   padding: 0 .75em;
 }
+
 nav li:hover {
   background-color: #cc1465;
   text-decoration: none;
